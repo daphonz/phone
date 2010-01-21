@@ -1,13 +1,9 @@
 = Validate::Phone
-Parsing, validating and creating phone numbers
+Parsing, validating and creating phone numbers.  Forked to prevent class-name clashes.
 
 == Install
-You can install the phone library as a gem
-    gem sources -a http://gemcutter.org
-    gem install phone
-
-Or as a Rails plugin
-    script/plugin install git://github.com/carr/phone.git
+You can install the phone library as a Rails plugin
+    script/plugin install git://github.com/daphonz/phone.git
 
 == Initializing
 You can initialize a new phone object with the number, area code and country code.
